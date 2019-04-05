@@ -10,10 +10,10 @@ npm init -y
 
 npm config list
 
-npm set init.author.name "<Your Name>"
-npm set init.author.email "you@example.com"
-npm set init.author.url "example.com"
-npm set init.license "DEMO"
+npm set init.author.name <Your Name>
+npm set init.author.email you@example.com
+npm set init.author.url example.com
+npm set init.license DEMO
 
 ## Install React and ReactDom
 
