@@ -1,10 +1,10 @@
-# Make directory {Project Name}
+## Make directory {Project Name}
 
 mkdir {folder-name} && cd {folder-name}/
 
-# Git ignore file if you want to git it
+## Git ignore file if you want to git it
 
-# Initialize npm and Config
+## Initialize npm and Config
 
 npm init -y
 
@@ -15,11 +15,11 @@ npm set init.author.email "you@example.com"
 npm set init.author.url "example.com"
 npm set init.license "DEMO"
 
-# Install React and ReactDom
+## Install React and ReactDom
 
 npm install --s react react-dom
 
-# Need to create all neccessary file
+## Need to create all neccessary file
 
 mkdir src
 cd src/
@@ -72,20 +72,20 @@ export default App;
 </html>
 ```
 
-# Install webpack and need to config webpack.config.js
+## Install webpack and need to config webpack.config.js
 
 npm install --save-dev webpack webpack-cli webpack-dev-server
 
-# Install babel and need to config on package.json and webpack.config.js
+## Install babel and need to config on package.json and webpack.config.js
 
 npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-react
 npm install --save-d @babel/plugin-proposal-class-properties
 
-# Install css and html-loader and need to webpack.config.js
+## Install css and html-loader and need to webpack.config.js
 
 npm install --save-dev css-loader style-loader html-webpack-plugin html-loader
 
-# Install babel and need to config on package.json and webpack.config.js
+## Install babel and need to config on package.json and webpack.config.js
 
 npm install --save-dev file-loader
 
