@@ -27,7 +27,7 @@ touch index.js App.js index.html index.css
 
 ## index.js
 
-```
+```javascript
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
@@ -38,7 +38,7 @@ ReactDOM.render(<App />, document.getElementById("app"));
 
 ## App.js
 
-```
+```javascript
 import React, { Component } from "react";
 
 class App extends Component {
@@ -57,7 +57,7 @@ export default App;
 
 ## index.html
 
-```
+```html5
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -91,7 +91,7 @@ npm install --save-dev file-loader
 
 ## webpack.config.js
 
-```
+```javascript
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
@@ -142,7 +142,7 @@ module.exports = {
 
 ## package.json
 
-```
+```json
 {
   "name": "react-with-webpack",
   "version": "1.0.0",
