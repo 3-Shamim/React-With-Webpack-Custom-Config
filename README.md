@@ -57,7 +57,7 @@ export default App;
 
 ## index.html
 
-```html5
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
